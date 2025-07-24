@@ -1,0 +1,46 @@
+# Node modules (dependencias)
+node_modules/
+
+# Build y producción
+dist/
+build/
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+*.swp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de VSCode y otros editores
+.vscode/
+.idea/
+
+# Archivos de test coverage
+coverage/
+
+# Archivos de lock opcionales
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Archivos generados por Vercel o Netlify (si se usa)
+.vercel/
+.netlify/
+
+# Cachés y demás
+.cache/
+.next/
+out/
+backend/uploads/
+backend/database.sqlite

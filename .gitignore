@@ -41,6 +41,3 @@ yarn.lock
 # Cachés y demás
 .cache/
 .next/
-out/
-backend/uploads/
-backend/database.sqlite
